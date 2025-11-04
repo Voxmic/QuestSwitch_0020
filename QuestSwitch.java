@@ -49,7 +49,13 @@ public class QuestSwitch {
         else {
             System.out.println("Nilai Tidak Valid");
         }
-       
+
+        if (IPK >= 3.50 || IPK > 3.75) {
+            System.out.println("Anda Layak Menjadi Asisten Dosen.");
+        }
+        else {
+            System.out.println("Maaf, Anda Belum Layak Menjadi Asisten Dosen.");
+        }
     }
     
 }
