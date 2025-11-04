@@ -34,23 +34,23 @@ public class QuestSwitch {
         if (IPK > 3.75) {
             System.out.println("Predikat Nilai Anda : A (Sangat Baik)");
         }
-        else if (IPK >= 3.50 || IPK <= 3.74) {
+        else if (IPK >= 3.50 && IPK <= 3.74) {
             System.out.println("Predikat Nilai Anda : AB (Baik Sekali)");
         }
-        else if (IPK >= 3.00 || IPK <= 3.49) {
+        else if (IPK >= 3.00 && IPK <= 3.49) {
             System.out.println("Predikat Nilai Anda : B (Baik)");
         }
-        else if (IPK >= 2.50 || IPK <= 2.99) {
+        else if (IPK >= 2.50 && IPK <= 2.99) {
             System.out.println("Predikat Nilai Anda : BC (Cukup)");
         }
-        else if (IPK >= 2.00 || IPK <= 2.49) {
+        else if (IPK >= 2.00 && IPK <= 2.49) {
             System.out.println("Predikat Nilai Anda : C (Kurang)");
         }
         else {
             System.out.println("Nilai Tidak Valid");
         }
-
-        if (IPK >= 3.50 || IPK > 3.75) {
+        
+        if (IPK >= 3.50 || IPK <= 4.00) {
             System.out.println("Anda Layak Menjadi Asisten Dosen.");
         }
         else {
